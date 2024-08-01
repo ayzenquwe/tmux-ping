@@ -15,6 +15,16 @@ Example:
 
 ![example](/screenshots/example.png)
 
+#### Configuration
+
+**Change ping host** (default: 8.8.8.8):
+
+    set -g @ping_host '8.8.8.8'
+
+**Enable colors** (default: true):
+
+    set -g @ping_colorize true
+
 ### Installation with [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) (recommended)
 
 Add plugin to the list of TPM plugins in `.tmux.conf`:
