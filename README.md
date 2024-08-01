@@ -13,7 +13,19 @@ Example:
 
     set -g status-right "Ping: #{ping} #[fg=white]| %Y-%m-%d %I:%M"
 
-![example](/screenshots/example.png)
+The colors are used based on the latency.
+
+Latency < 100:
+![example](/screenshots/example_1.png)
+
+Latency < 400:
+![example](/screenshots/example_2.png)
+
+Latency < 1000:
+![example](/screenshots/example_3.png)
+
+Latency > 1000:
+![example](/screenshots/example_4.png)
 
 #### Configuration
 
